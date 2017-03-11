@@ -1,0 +1,32 @@
+body {
+  background-color:#80e5a6;
+
+  color:#3b3a36
+}
+.navbar{background-color:#80e5a6;
+padding-right:20px;
+}
+/*.jumbotron{margin-top:60px;}*/
+.jumbotron p{color: #3b3a36;}
+.h3, h3{
+	color:#3b3a36;
+}
+#jhome{background:white; padding:150px 100px;color: #3b3a36; margin-top:100px;}
+#jabout{background:white;}
+#jportfolio{background:white;}
+#jcontact{background:white;}
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 90%;
+      margin: auto;
+  }
+.jumbotron p{font-size:15px}
+#aboutCol1{padding-top:100px}
+
+.carousel-caption {
+    position: relative;
+    left: auto;
+    right: auto;
+    color: black;
+}
+#resume{background:white;}
