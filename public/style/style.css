@@ -1,9 +1,9 @@
 body {
-  background-color:#80e5a6;
+  background-color:#3f7184;
 
   color:#3b3a36
 }
-.navbar{background-color:#80e5a6;
+.navbar{background-color:#3f7184;
 padding-right:20px;
 }
 /*.jumbotron{margin-top:60px;}*/
@@ -11,7 +11,7 @@ padding-right:20px;
 .h3, h3{
 	color:#3b3a36;
 }
-#jhome{background:white; padding:150px 100px;color: #3b3a36; margin-top:100px;}
+#jhome{background:white; padding:25px 100px;color: #3b3a36; margin-top:50px;}
 #jabout{background:white;}
 #jportfolio{background:white;}
 #jcontact{background:white;}
@@ -30,3 +30,31 @@ padding-right:20px;
     color: black;
 }
 #resume{background:white;}
+
+button{
+    margin:1em;
+}
+#howdytext {
+    font-size: 65px;
+    width: auto;
+float: left;    
+}
+
+#wavinggif {
+    width: auto;
+    height:400px;
+}
+
+.nav.navbar-nav.navbar-right li a{
+    color: #3b3a36;
+}
+.navbar-brand{
+    color:#3b3a36;
+}
+
+
+
+
+#me {
+    margin-top: 2em;
+}

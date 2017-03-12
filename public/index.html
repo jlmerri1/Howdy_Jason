@@ -5,18 +5,23 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="style/bootstrap-3.3.7-dist/css/bootstrap.min.css">
-  <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="style/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-
-<nav class="navbar navbar-default navbar-fixed-top">
+<nav class="navbar navbar-default">
   <div class="container-fluid">
 
     <div class="navbar-header">
-      <a class="navbar-brand">Jason Merrill</a>
-    
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" style="color:#3b3a36">Jason Merrill</a>
+      </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#chome">Home</a>
         </li>
@@ -33,15 +38,14 @@
 
 <div class="container" id="chome">
   <div class="jumbotron" id="jhome">
-    <h1 style="float:left"><b>howdy!</b></h1>
-     <img style="margin-left:100px" class="img-responsive" src="images/waving.gif" alt="HTML5 Icon" width="350" height="550">
-    <br>
-    <br>
-    <p class="text-center"><a href="https://github.com/jlmerri1" target="blank"><button type="button" class="btn btn-default">Github</button></a>
-    <a href="https://www.linkedin.com/in/jason-merrill-b260a875/" target="blank"><button type="button" class="btn btn-default">Linkedin</button></a>
-    <a href="https://www.freecodecamp.com/jlmerri1" target="blank"><button type="button" class="btn btn-default">FreeCodeCamp</button></a>
-	<a href="http://howdyjason.com/resume.html"><button type="button" class="btn btn-default">Resume</button></a></p>
-
+      <div class="row">
+        <div class="col-sm-5">
+      <h1 id="howdytext"><b>howdy!</b></h1>
+          </div>
+        <div class="col-sm-7">
+     <img class="img-responsive" id="wavinggif" src="images/waving.gif" alt="HTML5 Icon">
+          </div>
+    </div>
   </div>
 </div>
 <div class="container" id="cabout">
@@ -53,10 +57,16 @@
     <h4>Proficiencies:</h4>
     <p>Java, C#, HTML, CSS, JacaScript, XML, SQL, PL/SQL MySql, jQuery, ASP.NET, PHP, Swift, Python</p>
     <p>Microsoft Visual Studio, Android Studio, XCode, Oracle Database</p>
+      <br>
+      <br>
+    <div class="text-center"><a href="https://github.com/jlmerri1" target="blank"><button type="button" class="btn btn-default">Github</button></a>
+    <a href="https://www.linkedin.com/in/jason-merrill-b260a875/" target="blank"><button type="button" class="btn btn-default">Linkedin</button></a>
+    <a href="https://www.freecodecamp.com/jlmerri1" target="blank"><button type="button" class="btn btn-default">FreeCodeCamp</button></a>
+	<a href="http://howdyjason.com/resume.html"><button type="button" class="btn btn-default">Resume</button></a>
+	</div>
       </div>
       <div class="col-sm-6">
-        <img src="http://res.cloudinary.com/di63bpjnn/image/upload/v1487692416/IMG_7953_ywnr10.jpg" class="img-rounded img-responsive center-block" alt="Jason Merrill" width="300px"
-      </div>
+        <img id="me" src="http://res.cloudinary.com/di63bpjnn/image/upload/v1487692416/IMG_7953_ywnr10.jpg" class="img-rounded img-responsive center-block" alt="Jason Merrill" width="300px">
   </div>
 </div>
   </div>
@@ -158,7 +168,7 @@
     <div class="carousel-caption">
         <h3>Home Page</h3>
         <p>Final project for Fundimentals of Software Engineering class.  This site, 
-        GameBetter, is made </br>through PHP and MySQL with phpMyAdmin.  Unregistered users can view current games.</br>  Registered
+        GameBetter, is made <br>through PHP and MySQL with phpMyAdmin.  Unregistered users can view current games.<br>  Registered
         users can review and rate current games and registered administrators can add new games.</p>
       </div>
     </div>
@@ -183,7 +193,7 @@
       <img src="http://res.cloudinary.com/di63bpjnn/image/upload/v1489164055/Rating_Page_dpvbqk.png" alt="Rate Game">
     	<div class="carousel-caption">
         <h3>Rate Game</h3>
-        <p>All games are automatically added to drop down list.  Users select a game, select a star rating,</br>then click "Submit".  Stars turn yellow when hovered over.</p>
+        <p>All games are automatically added to drop down list.  Users select a game, select a star rating,<br>then click "Submit".  Stars turn yellow when hovered over.</p>
       </div>
     </div>
     <div class="item">
@@ -207,7 +217,6 @@
         <p>All games are added here with their ratings.  Ratings are an average of 1-5 stars.</p>
       </div>
     </div>
-  </div>
 
   <!-- Left and right controls -->
   <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
@@ -218,20 +227,6 @@
     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
-</div>
-
-
-
-
-    <h3>Portfolio Website</h3>
-    <div class="thumbnail">
-    <img src="http://res.cloudinary.com/di63bpjnn/image/upload/v1487693066/PortfolioSite_ca54zt.png" alt="Portfolio Site" class="img-rounded img-responsive center-block" width="100%"
-  </div>
-      <div class="caption">
-        <p>Website created on CodePen using HTML, CSS, and Bootstrap.</p>
-      </div>
-    </div>
-</div>
 </div>
 <div class="container" id="ccontact">
   <div class="jumbotron" id="jcontact">
@@ -244,7 +239,7 @@
     <a href="https://www.freecodecamp.com/jlmerri1" target="blank"><button type="button" class="btn btn-default btn-md">FreeCodeCamp</button></a>
     <a href="http://howdyjason.com/resume.html"><button type="button" class="btn btn-default">Resume</button></a></p>
     
-<div>
+    </div>
       
 </div>
 </body>
