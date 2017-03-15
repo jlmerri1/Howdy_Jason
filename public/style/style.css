@@ -11,7 +11,7 @@ padding-right:20px;
 .h3, h3{
 	color:#3b3a36;
 }
-#jhome{background:white; padding:25px 100px;color: #3b3a36; margin-top:50px;}
+#jhome{background:white; padding:25px 60px;color: #3b3a36; margin-top:50px;}
 #jabout{background:white;}
 #jportfolio{background:white;}
 #jcontact{background:white;}
@@ -34,10 +34,12 @@ padding-right:20px;
 button{
     margin:1em;
 }
+
 #howdytext {
-    font-size: 65px;
+    font-size: 5em;
     width: auto;
-float: left;    
+    float: left; 
+    margin-left: 20px;
 }
 
 #wavinggif {
