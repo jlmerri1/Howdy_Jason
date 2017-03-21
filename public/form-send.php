@@ -10,7 +10,7 @@ if(isset($_POST['email'])) {
         echo "We are very sorry, but there were error(s) found with the form you submitted. ";
         echo "These errors appear below.<br /><br />";
         echo $error."<br /><br />";
-        echo "Please go back and fix these errors.<br /><br />";
+        echo '<p>Please click <a href="http://www.howdyjason.com/#ccontact\\">here</a> to be redirected back to HowdyJason.com</p><br /><br />';
         die();
     }
      
@@ -63,14 +63,16 @@ $headers = 'From: '.$email_from."\r\n".
 'Reply-To: '.$email_from."\r\n" .
 'X-Mailer: PHP/' . phpversion();
 @mail($email_to, $email_subject, $email_message, $headers);  
-header("Location: http://www.howdyjason.com");
 
 ?>
-  
-Thanks for contacting me. 
-I will be in touch with you very soon!
+<div class="email_sent">
+<h3>Thanks for contacting me</h3>
+<h3>I will be in touch with you very soon!</h3>
+<br>
+<br>
+<p>Please click <a href="http://www.howdyjason.com\\">here</a> to be redirected back to HowdyJason.com</p>
+</div>
 
- 
 <?php
 
 }
