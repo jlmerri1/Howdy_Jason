@@ -1,17 +1,20 @@
 body {
-  background-color:#3f7184;
-
+  background-color:white;
+  font-family: Avant Garde,Avantgarde,sans-serif;
   color:#3b3a36
 }
-.navbar{background-color:#3f7184;
+a{color: #3b3a36;}
+.navbar{background-color:white;
 padding-right:20px;
+    border: none;
 }
 /*.jumbotron{margin-top:60px;}*/
 .jumbotron p{color: #3b3a36;}
 .h3, h3{
 	color:#3b3a36;
 }
-#jhome{background:white; padding:25px 60px;color: #3b3a36; margin-top:50px;}
+#jhome{background:white; padding:25px 60px;color: #3b3a36; margin-top:150px;
+margin-bottom: 150px;}
 #jabout{background:white;}
 #jportfolio{background:white;}
 #jcontact{background:white;}
@@ -21,7 +24,7 @@ padding-right:20px;
       margin: auto;
   }
 .jumbotron p{font-size:15px}
-#aboutCol1{padding-top:100px}
+#aboutCol1{padding-top:40px}
 
 .carousel-caption {
     position: relative;
@@ -36,7 +39,7 @@ button{
 }
 
 #howdytext {
-    font-size: 5em;
+    font-size: 6em;
     width: auto;
     float: left; 
     margin-left: 20px;
@@ -44,7 +47,7 @@ button{
 
 #wavinggif {
     width: auto;
-    height:400px;
+    height:300px;
 }
 
 .nav.navbar-nav.navbar-right li a{
@@ -55,8 +58,22 @@ button{
 }
 
 
-
-
 #me {
     margin-top: 2em;
+}
+
+.contact {
+    margin-top:40px;
+}
+
+
+
+.input-group {
+    padding: 5px;
+}
+
+
+
+.contact-text {
+    margin-top: 60px;
 }
