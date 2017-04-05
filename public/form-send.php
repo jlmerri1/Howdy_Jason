@@ -10,7 +10,7 @@ if(isset($_POST['email'])) {
         echo "We are very sorry, but there were error(s) found with the form you submitted. ";
         echo "These errors appear below.<br /><br />";
         echo $error."<br /><br />";
-        echo '<p>Please click <a href="http://www.howdyjason.com/#ccontact\\">here</a> to be redirected back to HowdyJason.com</p><br /><br />';
+        echo '<p>Please click <a href="http://www.howdyjason.com/#ccontact">here</a> to be redirected back to HowdyJason.com</p><br /><br />';
         die();
     }
      
@@ -70,7 +70,7 @@ $headers = 'From: '.$email_from."\r\n".
 <h3>I will be in touch with you very soon!</h3>
 <br>
 <br>
-<p>Please click <a href="http://www.howdyjason.com\\">here</a> to be redirected back to HowdyJason.com</p>
+<p>Please click <a href="http://www.howdyjason.com">here</a> to be redirected back to HowdyJason.com</p>
 </div>
 
 <?php
